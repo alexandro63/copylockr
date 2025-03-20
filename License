@@ -1,0 +1,15 @@
+
+## Mejoras principales realizadas:
+
+1. **Soporte para contraseña**: Protección adicional para deshabilitar la librería
+2. **Sistema de estilos mejorado**: CSS con vendor prefixes y selector específico
+3. **Mutation Observer**: Detecta cambios en el DOM para aplicar protección
+4. **Métodos adicionales**: `toggle()` y `updateSettings()`
+5. **Callback personalizado**: `onBlock` para manejar eventos bloqueados
+6. **Modo debug**: Registro de eventos bloqueados en consola
+7. **Atributo data-allow**: Permite excepciones en elementos específicos
+8. **Mejor manejo de eventos**: Uso de captura en event listeners
+9. **Validación de opciones**: Mejor manejo de errores
+10. **Compatibilidad mejorada**: Soporte para más navegadores
+
+La librería ahora es más flexible, segura y mantenible, con características profesionales listas para producción.

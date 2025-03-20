@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Prueba CopyLockr Mejorado</title>
+</head>
+
+<body>
+  <h1 class="copylockr-no-select">Contenido protegido con CopyLockr</h1>
+  <p>Intenta hacer clic derecho o usar combinaciones como Ctrl+U, F12, Ctrl+Shift+I, etc. – deberían estar bloqueadas.
+  </p>
+
+  <!-- Incluir la librería -->
+  <script src="../src/copylockr.js"></script>
+  <script>
+    // Habilitar la protección con las opciones por defecto
+    CopyLockr.enable({
+      disableContextMenu: true,
+      disableCopy: true,
+      disableCut: true,
+      disableDrag: true,
+      disableSelect: true,
+      disableDevTools: true,
+      password: 'my-secret-password',
+      customStyles: true,
+      debug: false,
+      onBlock: (eventType, originalEvent) => {
+        console.warn(`Evento bloqueado: ${eventType}`);
+      }
+    });
+
+  </script>
+</body>
+
+</html>
