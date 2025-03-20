@@ -1,7 +1,7 @@
 {
   "name": "copylockr",
   "description": "Librería para proteger el contenido de tu sitio web contra copias no autorizadas.",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w"
@@ -11,5 +11,22 @@
     "@rollup/plugin-node-resolve": "^15.2.1",
     "@rollup/plugin-terser": "^0.4.4",
     "rollup": "^3.29.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandro63/copylockr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexandro63/copylockr/issues"
+  },
+  "homepage": "https://github.com/alexandro63/copylockr#readme",
+  "keywords": [
+    "protección",
+    "contenido",
+    "web",
+    "copiar",
+    "seguridad"
+  ],
+  "author": "Alexandro F.",
+  "license": "MIT"
 }
